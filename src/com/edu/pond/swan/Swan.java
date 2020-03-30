@@ -21,7 +21,7 @@ public class Swan extends Bird
     public void helpOtherBirdSwim()
     {
         Bird other = new Swan();
-        // other.floatInWater(); // does not compile
-        // System.out.println(other.text); // does not compile
+        other.floatInWater();
+        System.out.println(other.text);
     }
 }
